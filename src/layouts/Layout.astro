@@ -1,3 +1,6 @@
+---
+const { title = 'ORBITAL — Centro de Control' } = Astro.props;
+---
 <!doctype html>
 <html lang="es">
 	<head>
@@ -8,7 +11,7 @@
 		<meta name="generator" content={Astro.generator} />
 		<meta name="theme-color" content="#080b10" />
 		<meta name="description" content="Centro de control de misión orbital HELIOS-7." />
-		<title>ORBITAL — Centro de Control</title>
+		<title>{title}</title>
 	</head>
 	<body>
 		<slot />

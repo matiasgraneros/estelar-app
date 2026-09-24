@@ -8,4 +8,5 @@ import react from '@astrojs/react';
 export default defineConfig({
   adapter: cloudflare(),
   integrations: [react()],
+  output: 'static',
 });
